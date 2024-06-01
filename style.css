@@ -112,3 +112,36 @@ figure figcaption {
     height: 100px;
     text-align: center;
 }
+
+/*quote section*/
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 60px;
+    
+    
+    
+}
+
+.quote {
+    margin: 0;
+    color: #1F2937;
+    font-size: 36px;
+    
+    font-style: italic;
+}
+
+.author {
+    color: #1F2937;
+    font-weight: bold;
+    align-self: flex-end;
+    
+}
+
+.quote-container {
+    width: 780px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
