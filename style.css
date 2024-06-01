@@ -65,7 +65,8 @@ main {
 }
 
 img {
-    width: 300px
+    width: 300px;
+    border-radius: 10px;  
 }
 
 .sign-up {
@@ -77,6 +78,37 @@ img {
     border: none;
     min-height: 10px; 
     min-width: 100px;
-    
-    
+    cursor: pointer;
+}
+
+/*second section*/
+
+.information {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+}
+.images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+}
+
+figure img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #3882F6;
+    border-radius: 10px;
+}
+
+figure figcaption {
+    width: 200px;
+    height: 100px;
+    text-align: center;
 }
