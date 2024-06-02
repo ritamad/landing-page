@@ -149,3 +149,51 @@ figure figcaption {
     flex-direction: column;
     align-items: center;
 }
+
+/*action section*/
+
+.action-section {
+  padding: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-container {
+  background-color: #3882F6 ;
+  padding: 40px 110px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.action-text {
+
+}
+
+h3 {
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.action-p {
+    margin: 0;
+    padding: 0;
+    color: #E5E7EB;
+    font-size: 14px;
+}
+
+.go-button {
+    background-color: #3882F6 ;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px 30px;
+   
+}
