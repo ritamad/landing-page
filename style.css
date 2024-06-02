@@ -200,3 +200,14 @@ button:hover {
     background-color: #45a049; /* Darker green */
     transform: scale(1.05); /* Slightly enlarge the button */
 }
+
+/*footer*/
+
+footer {
+    background-color: #1F2937;
+    padding: 10px;
+    text-align: center;
+    font-size: 11px;
+    color:#E5E7EB;
+    
+}
